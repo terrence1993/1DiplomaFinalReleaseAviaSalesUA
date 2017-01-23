@@ -9,6 +9,8 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.core.userdetails.UserDetailsService;
 
+import static org.hibernate.criterion.Restrictions.and;
+
 @Configuration
 @EnableWebSecurity
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
@@ -25,25 +27,26 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http
-                .csrf().disable()
+                .requiresChannel().anyRequest().requiresSecure()
+                .and()
                 .authorizeRequests()
-                .antMatchers("/").hasAnyRole("USER", "ADMIN")
-                .antMatchers("/admin").hasRole("ADMIN")
-                .antMatchers("/tables").hasRole("ADMIN")
-                .antMatchers("/blank").hasRole("ADMIN")
-                .antMatchers("/buttons").hasRole("ADMIN")
-                .antMatchers("/flot").hasRole("ADMIN")
-                .antMatchers("/forms").hasRole("ADMIN")
-                .antMatchers("/grid").hasRole("ADMIN")
-                .antMatchers("/icons").hasRole("ADMIN")
-                .antMatchers("/morris").hasRole("ADMIN")
-                .antMatchers("/notifications").hasRole("ADMIN")
-                .antMatchers("/panels-wells").hasRole("ADMIN")
-                .antMatchers("/typography").hasRole("ADMIN")
-                .antMatchers("/register").permitAll()
-                .antMatchers("/main").permitAll()
-                .antMatchers("/makeorder").hasAnyRole("USER", "ADMIN")
-                .antMatchers("/result").hasAnyRole("USER","ADMIN")
+                    .antMatchers("/").hasAnyRole("USER", "ADMIN")
+                    .antMatchers("/admin").hasRole("ADMIN")
+                    .antMatchers("/tables").hasRole("ADMIN")
+                    .antMatchers("/blank").hasRole("ADMIN")
+                    .antMatchers("/buttons").hasRole("ADMIN")
+                    .antMatchers("/flot").hasRole("ADMIN")
+                    .antMatchers("/forms").hasRole("ADMIN")
+                    .antMatchers("/grid").hasRole("ADMIN")
+                    .antMatchers("/icons").hasRole("ADMIN")
+                    .antMatchers("/morris").hasRole("ADMIN")
+                    .antMatchers("/notifications").hasRole("ADMIN")
+                    .antMatchers("/panels-wells").hasRole("ADMIN")
+                    .antMatchers("/typography").hasRole("ADMIN")
+                    .antMatchers("/register").permitAll()
+                    .antMatchers("/main").permitAll()
+                    .antMatchers("/makeorder").hasAnyRole("USER", "ADMIN")
+                    .antMatchers("/result").hasAnyRole("USER","ADMIN")
                 .and()
         .exceptionHandling().accessDeniedPage("/unauthorized")
                 .and()
