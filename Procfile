@@ -1,1 +1,1 @@
- web: java $JAVA_OPTS -Dserver.port=$PORT-jar target/diploma-1.0-SNAPSHOT.war
+ web: java $JAVA_OPTS -jar target/diploma-1.0-SNAPSHOT.war
