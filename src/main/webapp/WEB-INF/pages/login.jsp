@@ -186,7 +186,7 @@
 
 <body>
 <p>It's highly recomended to allow download sources from bootstrap. My styles are blocked by Heroku server(https). Thanks for the understanding.</p>
-
+<p>This appliacation is very unstable because Heroku. I don't know why.</p>
 <div class="body"></div>
 <div class="grad"></div>
 <div class="header">
