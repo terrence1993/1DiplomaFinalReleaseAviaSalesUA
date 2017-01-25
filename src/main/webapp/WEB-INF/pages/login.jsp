@@ -5,8 +5,7 @@
 <html lang="en">
 <head>
     <title>AviaSalesUA</title>
-    <p>It's highly recomended to allow download sources from bootstrap. My styles are blocked by Heroku server(https). Thanks for the understanding.</p>
-    <p>This appliacation is very unstable because Heroku. I don't know why.</p>
+
     <link rel="shortcut icon" href="resources/index/images/ico/favicon.png">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
@@ -211,7 +210,7 @@
         </c:if>
     </form>
 </div>
-<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
 
 </body>

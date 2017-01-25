@@ -9,7 +9,7 @@
     <title>AviaSalesUA</title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
     <link rel="stylesheet" href="resources/register/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="resources/register/css/form-elements.css">
     <link rel="stylesheet" href="resources/register/css/style.css">
@@ -81,7 +81,7 @@
                     </div>
                     <div class="form-group">
                         <label class="sr-only" for="form-email">Email</label>
-                        <input type="text" name="email" placeholder="Email..." class="form-email form-control" id="form-email">
+                        <input type="email" name="email" placeholder="Email..." class="form-email form-control" id="form-email">
                     </div>
                     <div class="form-group">
                         <label class="sr-only" for="form-phone">Email</label>

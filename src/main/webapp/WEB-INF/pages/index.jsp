@@ -93,7 +93,7 @@
             <div class="item" style="background-image: url(resources/index/images/slider/1.jpg)">
                 <div class="carousel-caption">
                     <div>
-                        <h2 class="heading animated bounceInRight">Fully Responsive Site</h2>
+                        <h2 class="heading animated bounceInRight">Fully Responsive Site. Allow in your browser download my style scripts to make a better picture.</h2>
                         <p class="animated bounceInLeft">100% AviaSalesUA</p>
                         <a class="btn btn-default slider-btn animated bounceInUp" href="/makeorder">Create order</a>
                     </div>
