@@ -27,7 +27,7 @@ public class NotificationService {
         SimpleMailMessage mailMessage = new SimpleMailMessage();
 
         mailMessage.setTo(customUser.getEmail());
-        mailMessage.setFrom("zork93@gmail.com");
+        mailMessage.setFrom("herokuaviasalesua@gmail.com");
         mailMessage.setSubject("Registration on AviaSalesUA!");
         mailMessage.setText("Dear "+customUser.getLogin()+", "+"welcome in our site. Thanks for the registration."+". "
                 +"Your phone is: "+customUser.getPhone()+". "
