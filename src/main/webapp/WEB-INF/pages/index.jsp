@@ -1151,7 +1151,7 @@
                 <div class="col-sm-6">
                     <div id="contact-form-section">
                         <div class="status alert alert-success" style="display: none"></div>
-                        <form id="contact-form" class="contact" name="contact-form" action="/resources/index/send-mail.php" method="post">
+                        <form id="contact-form" method="post" class="contact" name="contact-form" action="sendEmail.do" >
                             <div class="form-group">
                                 <input type="text" name="name" class="form-control name-field" required="required" value="${login}" placeholder="Your Login or Name"></div>
                             <div class="form-group">
