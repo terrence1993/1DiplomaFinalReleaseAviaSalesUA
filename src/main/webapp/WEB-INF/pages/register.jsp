@@ -87,7 +87,7 @@
                         <label class="sr-only" for="form-phone">Email</label>
                         <input type="text" name="phone" placeholder="Phone..." class="form-email form-control" id="form-phone">
                     </div>
-                    <button type="submit" class="btn">Registration</button>
+                    <button type="submit" href="/signup-success" class="btn">Registration</button>
                     <p><a href="/login">Already have an account?</a></p>
 
                     <c:if test="${exists ne null}">

@@ -80,7 +80,12 @@ public class MyController {
         CustomUser dbUser = new CustomUser(login, passHash, UserRole.USER, email, phone);
         userService.addUser(dbUser);
 
-        return "redirect:/";
+        model.addAttribute("login",login);
+        model.addAttribute("password", password);
+        model.addAttribute("email",email);
+        model.addAttribute("phone", phone);
+
+        return "redirect:/signup-success";
     }
 
     @RequestMapping(value = "/newuseradmin", method = RequestMethod.POST)
