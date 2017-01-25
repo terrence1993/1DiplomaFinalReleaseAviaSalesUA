@@ -77,7 +77,7 @@
                     </div>
                     <div class="form-group">
                         <label class="sr-only" for="form-password">Last name</label>
-                        <input type="text" name="password" placeholder="Password..." class="form-last-name form-control" id="form-password">
+                        <input type="password" name="password" placeholder="Password..." class="form-last-name form-control" id="form-password">
                     </div>
                     <div class="form-group">
                         <label class="sr-only" for="form-email">Email</label>
