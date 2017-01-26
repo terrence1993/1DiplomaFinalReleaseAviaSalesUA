@@ -63,10 +63,10 @@
 
 
 <!-- Javascript -->
-<script src="resources/feedback-success/js/jquery-1.11.1.min.js"></script>
+<script src="resources/signup-success/js/jquery-1.11.1.min.js"></script>
 <script src="resources/signup-success/bootstrap/js/bootstrap.min.js"></script>
-<script src="resources/feedback-success/js/jquery.backstretch.min.js"></script>
-<script src="resources/feedback-success/js/scripts.js"></script>
+<script src="resources/signup-success/js/jquery.backstretch.min.js"></script>
+<script src="resources/signup-success/js/scripts.js"></script>
 
 <!--[if lt IE 10]>
 <script src="resources/signup-success/js/placeholder.js"></script>
