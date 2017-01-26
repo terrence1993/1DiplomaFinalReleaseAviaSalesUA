@@ -4,7 +4,7 @@ jQuery(document).ready(function() {
     /*
         Fullscreen background
     */
-    $.backstretch("resources/signup-success/img/backgrounds/1.jpg");
+    $.backstretch("resources/feedback-success/img/backgrounds/1.jpg");
     
     /*
 	    Modals

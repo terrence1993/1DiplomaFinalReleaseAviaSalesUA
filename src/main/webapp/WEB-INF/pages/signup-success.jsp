@@ -49,8 +49,11 @@
                     <h1><strong>AviaSalesUA </strong> Registration</h1>
                     <div class="description">
                         <p>
-                            Thank you for the registration on AviaSalesUA. Check the email and click <a href="/login"><strong>the link</strong></a> to continue on login page!!
+                            Thank you for the registration on AviaSalesUA. Check the email and click below to continue on login page!!
                         </p>
+                    </div>
+                    <div class="top-big-link">
+                        <a class="btn btn-link-1" href="/login" >Log in</a>
                     </div>
                     </div>
                 </div>
