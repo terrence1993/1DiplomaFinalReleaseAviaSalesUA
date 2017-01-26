@@ -49,7 +49,7 @@
                     <h1><strong>AviaSalesUA </strong> Feedback</h1>
                     <div class="description">
                         <p>
-                            Thank you for the registration on AviaSalesUA. Check the email and click below to continue on login page!!
+                            Thank you for your feedback. :) You can go back to main page.
                         </p>
                     </div>
                     <div class="top-big-link">
