@@ -46,7 +46,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-8 col-sm-offset-2 text">
-                    <h1><strong>AviaSalesUA </strong> Registration</h1>
+                    <h1><strong>AviaSalesUA </strong> Notification</h1>
                     <div class="description">
                         <p>
                             Thank you for the registration on AviaSalesUA. Check the email and click below to continue on login page!!
@@ -60,8 +60,6 @@
             </div>
         </div>
     </div>
-</div>
-</div>
 
 
 <!-- Javascript -->
