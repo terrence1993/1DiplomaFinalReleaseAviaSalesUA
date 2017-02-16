@@ -29,9 +29,6 @@ public class EmailController {
     @Autowired
     private JavaMailSender javaMailSender;
 
-    @Autowired
-    private ResultSuccessService resultSuccessService;
-
     @RequestMapping("/signup-success")
     public String signupSuccess(CustomUser customUser, Model model){
 
