@@ -1,4 +1,4 @@
-package com.gmail.zork93.Flight;
+package com.gmail.zork93.Repositories;
 
 import com.gmail.zork93.Entities.Flight;
 import org.springframework.data.jpa.repository.JpaRepository;

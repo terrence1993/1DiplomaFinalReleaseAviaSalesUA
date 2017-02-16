@@ -509,7 +509,7 @@
     <div class="container">
         <div class="row text-center clearfix">
             <div class="col-sm-8 col-sm-offset-2">
-                <h2 class="title-one">Hot Propisitions</h2>
+                <h2 class="title-one">Hot Propositions</h2>
                 <p class="blog-heading">Here are our hot propositions. They working in semi-automatic mode, which means you order ready flight adventure, but taxi and hotels you chose manually(sometimes/maybe). Enjoy and have a nice adventure :) ! </p>
             </div>
         </div>

@@ -1,6 +1,8 @@
-package com.gmail.zork93.User;
+package com.gmail.zork93.Implementation;
 
 import com.gmail.zork93.Entities.CustomUser;
+import com.gmail.zork93.Repositories.UserRepository;
+import com.gmail.zork93.Services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

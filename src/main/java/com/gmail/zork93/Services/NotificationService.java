@@ -1,4 +1,4 @@
-package com.gmail.zork93.Email;
+package com.gmail.zork93.Services;
 
 import com.gmail.zork93.Entities.CustomUser;
 import org.springframework.beans.factory.annotation.Autowired;

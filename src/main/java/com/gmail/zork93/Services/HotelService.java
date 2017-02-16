@@ -1,4 +1,4 @@
-package com.gmail.zork93.Hotel;
+package com.gmail.zork93.Services;
 
 import com.gmail.zork93.Entities.Hotel;
 

@@ -1,8 +1,8 @@
 package com.gmail.zork93;
 
 import com.gmail.zork93.Entities.CustomUser;
-import com.gmail.zork93.User.UserRole;
-import com.gmail.zork93.User.UserService;
+import com.gmail.zork93.Enum.UserRole;
+import com.gmail.zork93.Services.UserService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

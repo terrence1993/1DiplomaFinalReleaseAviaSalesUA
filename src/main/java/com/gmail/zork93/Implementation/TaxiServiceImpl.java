@@ -1,6 +1,8 @@
-package com.gmail.zork93.Taxi;
+package com.gmail.zork93.Implementation;
 
 import com.gmail.zork93.Entities.Taxi;
+import com.gmail.zork93.Repositories.TaxiRepository;
+import com.gmail.zork93.Services.TaxiService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

@@ -1,4 +1,4 @@
-package com.gmail.zork93.Flight;
+package com.gmail.zork93.Services;
 
 import com.gmail.zork93.Entities.Flight;
 

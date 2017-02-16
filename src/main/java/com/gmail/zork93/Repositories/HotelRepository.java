@@ -1,4 +1,4 @@
-package com.gmail.zork93.Hotel;
+package com.gmail.zork93.Repositories;
 
 import com.gmail.zork93.Entities.Hotel;
 import org.springframework.data.jpa.repository.JpaRepository;

@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <title>AviaSalesUA Order</title>
-    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel="shortcut icon" href="resources/index/images/ico/favicon.png">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="resources/index/images/ico/1.png">
@@ -163,7 +163,6 @@
 
 </head>
 <p style="text-align:center;">Dear ${login}! This is your Order result. You can download it [ctrl+s] or go <a href="/"><strong>Back</strong></a></p>
-<p style="text-align: center;">Our managers contact with you soon. Thanks for using our service. [DIPLOMA]</p>
 
 <body>
 <div class="pricing">
@@ -173,24 +172,26 @@
             <span class="price-option__type"><strong><%=request.getParameter("userName")%></strong></span>
             <span class="price-option__type"><strong><%=request.getParameter("userSurname")%></strong></span>
             <p></p>
-            <span class="price-option__type">Code: <strong><%=request.getParameter("1code")%></strong></span>
-            <span class="price-option__type">Way: <strong><%=request.getParameter("1way")%></strong></span>
-            <span class="price-option__type">Company: <strong><%=request.getParameter("1company")%></strong></span>
-            <span class="price-option__type">Class: <strong><%=request.getParameter("1flightClass")%></strong></span>
+            <span class="price-option__type">Code: <strong><%=request.getParameter("code")%></strong></span>
+            <span class="price-option__type">Way: <strong><%=request.getParameter("way")%></strong></span>
+            <span class="price-option__type">Company: <strong><%=request.getParameter("company")%></strong></span>
+            <span class="price-option__type">Class: <strong><%=request.getParameter("flightClass")%></strong></span>
             <p></p>
-            <span class="price-option__type">Hotel: <strong><%=request.getParameter("1hotelName")%></strong></span>
-            <span class="price-option__type">Type: <strong><%=request.getParameter("1hotelType")%></strong></span>
+            <span class="price-option__type">Hotel: <strong><%=request.getParameter("hotelName")%></strong></span>
+            <span class="price-option__type">Type: <strong><%=request.getParameter("hotelType")%></strong></span>
             <span class="price-option__type">Rooms: <strong><%=request.getParameter("userSurname")%></strong></span>
             <p></p>
-            <span class="price-option__type">Taxi: <strong><%=request.getParameter("1taxiCompany")%></strong></span>
-            <span class="price-option__type">Type: <strong><%=request.getParameter("1taxiType")%></strong></span>
-            <span class="price-option__type">Car: <strong><%=request.getParameter("1taxiName")%></strong></span>
+            <span class="price-option__type">Taxi: <strong><%=request.getParameter("taxiCompany")%></strong></span>
+            <span class="price-option__type">Type: <strong><%=request.getParameter("taxiType")%></strong></span>
+            <span class="price-option__type">Car: <strong><%=request.getParameter("taxiName")%></strong></span>
         </div>
 
         <a class="price-option__purchase">Total: <%=request.getParameter("totalPrice")%></a>
 
     </div>
+
+    <p style="text-align: center;">Our managers contact with you soon. Thanks for using our service. [DIPLOMA]</p>
 </div>
-<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 </body>
 </html>

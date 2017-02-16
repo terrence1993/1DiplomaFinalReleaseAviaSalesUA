@@ -1,4 +1,4 @@
-package com.gmail.zork93.User;
+package com.gmail.zork93.Enum;
 
 public enum UserRole {
     ADMIN, USER;

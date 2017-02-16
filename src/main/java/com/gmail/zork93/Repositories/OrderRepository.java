@@ -1,4 +1,4 @@
-package com.gmail.zork93.Order;
+package com.gmail.zork93.Repositories;
 
 import com.gmail.zork93.Entities.Order;
 import org.springframework.data.jpa.repository.JpaRepository;

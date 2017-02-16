@@ -1,4 +1,4 @@
-package com.gmail.zork93.Order;
+package com.gmail.zork93.Services;
 
 import com.gmail.zork93.Entities.CustomUser;
 import com.gmail.zork93.Entities.Order;

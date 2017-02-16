@@ -1,4 +1,4 @@
-package com.gmail.zork93.Taxi;
+package com.gmail.zork93.Repositories;
 
 import com.gmail.zork93.Entities.Taxi;
 import org.springframework.data.jpa.repository.JpaRepository;

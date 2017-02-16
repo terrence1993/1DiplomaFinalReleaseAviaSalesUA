@@ -1,6 +1,6 @@
 package com.gmail.zork93.Entities;
 
-import com.gmail.zork93.User.UserRole;
+import com.gmail.zork93.Enum.UserRole;
 
 import javax.persistence.*;
 

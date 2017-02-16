@@ -1,18 +1,16 @@
-package com.gmail.zork93.Email;
+package com.gmail.zork93.Controllers;
 
+import com.gmail.zork93.Services.NotificationService;
 import com.gmail.zork93.Entities.CustomUser;
-import com.gmail.zork93.User.UserService;
+import com.gmail.zork93.Services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.MailException;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
-import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.security.core.userdetails.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -30,6 +28,9 @@ public class EmailController {
 
     @Autowired
     private JavaMailSender javaMailSender;
+
+    @Autowired
+    private ResultSuccessService resultSuccessService;
 
     @RequestMapping("/signup-success")
     public String signupSuccess(CustomUser customUser, Model model){

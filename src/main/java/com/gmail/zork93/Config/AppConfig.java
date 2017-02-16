@@ -1,6 +1,6 @@
-package com.gmail.zork93;
+package com.gmail.zork93.Config;
 
-import com.gmail.zork93.User.UserDetailsServiceImpl;
+import com.gmail.zork93.Implementation.UserDetailsServiceImpl;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -10,6 +10,7 @@ import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.orm.jpa.JpaVendorAdapter;
 import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
 import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
+import org.springframework.security.authentication.encoding.ShaPasswordEncoder;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
@@ -86,6 +87,11 @@ public class AppConfig extends WebMvcConfigurerAdapter {
         Properties properties = new Properties();
         properties.setProperty("hibernate.hbm2ddl.auto", hbm2dllAuto);
         return properties;
+    }
+
+    @Bean
+    public ShaPasswordEncoder shaPasswordEncoder(){
+        return new ShaPasswordEncoder();
     }
 
 }

@@ -1,4 +1,4 @@
-package com.gmail.zork93.User;
+package com.gmail.zork93.Repositories;
 
 import com.gmail.zork93.Entities.CustomUser;
 import org.springframework.data.jpa.repository.JpaRepository;

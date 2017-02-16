@@ -1,4 +1,4 @@
-package com.gmail.zork93;
+package com.gmail.zork93.Config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
@@ -18,10 +18,13 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     private UserDetailsService userDetailsService;
 
     @Autowired
+    private ShaPasswordEncoder shaPasswordEncoder;
+
+    @Autowired
     public void registerGlobalAuthentication(AuthenticationManagerBuilder auth) throws Exception {
         auth
                 .userDetailsService(userDetailsService)
-                .passwordEncoder(getShaPasswordEncoder());
+                .passwordEncoder(shaPasswordEncoder);
     }
 
     @Override
@@ -66,7 +69,4 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .invalidateHttpSession(true);
     }
 
-    private ShaPasswordEncoder getShaPasswordEncoder(){
-        return new ShaPasswordEncoder();
-    }
 }

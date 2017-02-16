@@ -1,6 +1,8 @@
-package com.gmail.zork93.Hotel;
+package com.gmail.zork93.Implementation;
 
 import com.gmail.zork93.Entities.Hotel;
+import com.gmail.zork93.Repositories.HotelRepository;
+import com.gmail.zork93.Services.HotelService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

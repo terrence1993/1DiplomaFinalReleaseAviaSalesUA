@@ -1,6 +1,8 @@
-package com.gmail.zork93.Flight;
+package com.gmail.zork93.Implementation;
 
 import com.gmail.zork93.Entities.Flight;
+import com.gmail.zork93.Repositories.FlightRepository;
+import com.gmail.zork93.Services.FlightService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
