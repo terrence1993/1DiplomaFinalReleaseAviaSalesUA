@@ -85,7 +85,7 @@
                     </div>
                     <div class="form-group">
                         <label class="sr-only" for="form-phone">Phone</label>
-                        <input type="tel" name="tel" placeholder="Phone..." class="form-email form-control" id="form-phone">
+                        <input type="text" name="phone" placeholder="Phone..." class="form-email form-control" id="form-phone">
                     </div>
                     <button type="submit" href="/signup-success" class="btn">Registration</button>
                     <p><a href="/login">Already have an account?</a></p>

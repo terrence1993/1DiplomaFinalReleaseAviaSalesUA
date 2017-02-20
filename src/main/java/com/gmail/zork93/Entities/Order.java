@@ -16,7 +16,6 @@ public class Order {
     private long id;
     private String userName;
     private String userSurname;
-    private String orderMail;
     private String totalPrice;
 
 

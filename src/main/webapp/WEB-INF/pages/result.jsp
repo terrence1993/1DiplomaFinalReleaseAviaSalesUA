@@ -163,7 +163,7 @@
 
 </head>
 <p style="text-align:center;">Dear ${login}! This is your Order result. You can download it [ctrl+s] or go <a href="/"><strong>Back</strong></a></p>
-
+<p style="text-align: center;">Our managers contact with you soon. Thanks for using our service. [DIPLOMA]</p>
 <body>
 <div class="pricing">
     <div class="[ price-option price-option--mid ]">
@@ -189,9 +189,7 @@
         <a class="price-option__purchase">Total: <%=request.getParameter("totalPrice")%></a>
 
     </div>
-
-    <p style="text-align: center;">Our managers contact with you soon. Thanks for using our service. [DIPLOMA]</p>
-</div>
+    </div>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 </body>
 </html>
